@@ -10,8 +10,9 @@
     float: right;
     /* Add any other styles you need for positioning and styling the date */
   }
-
 .post-container {
+    margin: 20px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,4 +64,5 @@
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
