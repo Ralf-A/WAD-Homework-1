@@ -8,7 +8,7 @@ fetch('/res/data.json') // Replace 'your-json-file.json' with the actual path to
     // Loop through the posts and display them
     data.posts.forEach(post => {
       const postElement = document.createElement('div');
-      postElement.classList.add('post-container'); // Add a class for styling
+      postElement.classList.add('post-outer-container'); // Add a class for outer div styling
 
       // Create a div for the date (top-right)
       const dateElement = document.createElement('p');
@@ -24,13 +24,20 @@ fetch('/res/data.json') // Replace 'your-json-file.json' with the actual path to
         imageElement.style.width = '100%'; // Set width to 100%
         imageElement.style.height = 'auto'; // Maintain aspect ratio
         postElement.appendChild(imageElement);
+      } else {
+        const emptyElement = document.createElement('p');
+        postElement.appendChild(emptyElement);
       }
+
+      // Add the date text before the content text
+
 
       // Add the content text
       const contentElement = document.createElement('p');
       contentElement.textContent = post.content;
       postElement.appendChild(contentElement);
 
+      // Append the post div to the posts container
       postsContainer.appendChild(postElement);
     });
   })

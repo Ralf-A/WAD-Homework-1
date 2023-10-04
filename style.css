@@ -15,12 +15,14 @@
     background-color: #f0f0f0; /* Replace with your desired background color */
     padding: 10px; /* Add padding for spacing */
     margin-bottom: 20px; /* Add margin for spacing between posts */
+    min-height: 50px;
   }
   
 
 /* Style for the posts container */
 #posts-container {
     max-width: 700px; /* Limit the width to 500px */
+    min-height: 50px;
     /* Add other styles as needed for your posts container */
 }
 .header {
