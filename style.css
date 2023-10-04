@@ -6,7 +6,7 @@
     min-height: 100vh; /* Make the container at least full viewport height */
 }
 
-.date-right {
+.date-top-right {
     float: right;
     /* Add any other styles you need for positioning and styling the date */
   }
@@ -21,7 +21,7 @@
 /* Style for the posts container */
 #posts-container {
     max-width: 700px; /* Limit the width to 500px */
-    /* Add other styles as needed for your posts container */
+    height: auto;
 }
 .header {
     padding-top: .5em;
