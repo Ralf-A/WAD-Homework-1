@@ -1,3 +1,28 @@
+/* Style for the container div */
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    min-height: 100vh; /* Make the container at least full viewport height */
+}
+
+.date-right {
+    float: right;
+    /* Add any other styles you need for positioning and styling the date */
+  }
+
+.post-container {
+    background-color: #f0f0f0; /* Replace with your desired background color */
+    padding: 10px; /* Add padding for spacing */
+    margin-bottom: 20px; /* Add margin for spacing between posts */
+  }
+  
+
+/* Style for the posts container */
+#posts-container {
+    max-width: 700px; /* Limit the width to 500px */
+    /* Add other styles as needed for your posts container */
+}
 .header {
     padding-top: .5em;
     padding-bottom: .5em;
