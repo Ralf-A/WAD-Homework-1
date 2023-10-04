@@ -21,7 +21,7 @@
 /* Style for the posts container */
 #posts-container {
     max-width: 700px; /* Limit the width to 500px */
-    /* Add other styles as needed for your posts container */
+    height: auto;
 }
 .header {
     padding-top: .5em;
