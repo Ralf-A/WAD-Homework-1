@@ -6,7 +6,7 @@
     min-height: 100vh; /* Make the container at least full viewport height */
 }
 
-.date-right {
+.date-top-right {
     float: right;
     /* Add any other styles you need for positioning and styling the date */
   }
