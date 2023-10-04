@@ -1,0 +1,16 @@
+{ "posts":
+[
+    {
+    "ID": 1,
+    "picture": "post1.jpg",
+    "content": "My first post!",
+    "date": "2023-10-05"
+    },
+    {
+        "ID": 1,
+        "picture": null,
+        "content": "My second post!",
+        "date": "2023-10-10"
+    }
+]
+}
