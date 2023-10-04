@@ -10,8 +10,12 @@
     float: right;
     /* Add any other styles you need for positioning and styling the date */
   }
-
 .post-container {
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #f0f0f0; /* Replace with your desired background color */
     padding: 10px; /* Add padding for spacing */
     margin-bottom: 20px; /* Add margin for spacing between posts */
