@@ -73,5 +73,5 @@ h1::first-line {
 }
 
 .header + .login-box {
-    background-color: lightslategray;
+    background-color: lightgray;
 }
