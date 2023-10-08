@@ -89,6 +89,7 @@
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
+<<<<<<< Updated upstream
 }
 
 h1::first-line {
@@ -127,4 +128,6 @@ h1::first-line {
     color: #ffffff;
     border-color: #0000ff;
     margin: 10px;
+=======
+>>>>>>> Stashed changes
 }
