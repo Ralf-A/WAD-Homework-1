@@ -14,6 +14,7 @@ fetch('/res/data.json') // Replace 'your-json-file.json' with the actual path to
       // Create a list item for each post
       const listItem = document.createElement('dl');
       listItem.classList.add('post-item'); // Add a class for styling the list item
+      listItem.style.marginBottom = '30px';
 
       // Create a div for the date (top-right)
       const dateElement = document.createElement('p');

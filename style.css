@@ -4,7 +4,6 @@
     justify-content: center; /* Horizontally center content */
     align-items: center; /* Vertically center content */
     min-height: 100vh; /* Make the container at least full viewport height */
-    text-align: center;
 }
 
 .date-top-right {
@@ -12,7 +11,10 @@
     width: 100%;
     /* Add any other styles you need for positioning and styling the date */
   }
-.post-container {
+  
+#posts-container {
+    max-width: 700px;
+    min-height: 50px;
     margin: 20px;
     border-radius: 10px;
     display: flex;
@@ -22,7 +24,6 @@
     padding: 10px; /* Add padding for spacing */
     margin-bottom: 20px; /* Add margin for spacing between posts */
     min-height: 50px;
-    
   }
   
 
@@ -59,7 +60,7 @@
     background-color: #777;
     margin-right: 20px;
 }
-#login-box {
+.login-box {
     background-color: #fff;
     width: 300px;
     margin: 0 auto;
@@ -72,27 +73,4 @@
 
 h1::first-line {
     font-size: 50px;
-}
-#coloredButton {
-    background-color: #0092f3; /* Replace with your desired color code */
-    color: #000000; /* Text color for better contrast */
-    padding: 10px 10px; /* Adjust padding as needed */
-    border: none; /* Remove the button border if desired */
-    border-radius: 5px; /* Add rounded corners if desired */
-    cursor: pointer;
-}
-#fileInput {
-    background-color: #acb0b3; /* Replace with your desired color code */
-    color: #000000; /* Text color for better contrast */
-    padding: 10px 10px; /* Adjust padding as needed */
-    border-radius: 5px; /* Add rounded corners if desired */
-    cursor: pointer;
-}
-#textBox{
-    width: 300px; /* Set the width of the input box */
-    padding: 10px; /* Add padding for better spacing */
-    font-size: 16px; /* Set the font size */
-    border: 2px solid #000000; /* Add a border with a color of your choice */
-    border-radius: 5px; /* Add rounded corners */
-    outline: none; /* Remove the default input focus outline */
 }
