@@ -117,3 +117,14 @@ h1::first-line {
     border-radius: 5px; /* Add rounded corners */
     outline: none; /* Remove the default input focus outline */
 }
+
+.header + .login-box {
+    background-color: lightgray;
+}
+
+.login-form > #login-button {
+    background-color: #0000ff;
+    color: #ffffff;
+    border-color: #0000ff;
+    margin: 10px;
+}
