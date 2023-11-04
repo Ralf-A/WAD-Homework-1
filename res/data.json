@@ -1,34 +1,74 @@
-{ "posts":
-[
-    {
-    "ID": 1,
-    "picture": "post1.jpg",
-    "content": "My first post!",
-    "date": "2023-10-05"
-    },
-    {
-        "ID": 2,
-        "picture": null,
-        "content": "My second post!",
-        "date": "2023-10-10"
-    },
-    {
-        "ID": 3,
-        "picture": null,
-        "content": "I made an epic post yet again",
-        "date": "2023-10-10"
-    },
-    {
-        "ID": 4,
-        "picture": "post1.jpg",
-        "content": "repost!",
-        "date": "2023-10-05"
-    },
-    {
-        "ID": 5,
-        "picture": "post1.jpg",
-        "content": "repost two!",
-        "date": "2023-10-05"
+   { "posts":
+    [
+        {
+            "ID": 1,
+            "picture": "res/pictures/post1.jpg",
+            "content": "My first post!",
+            "date": "2023-10-05",
+            "author": "Ralf"
+        },
+        {
+            "ID": 2,
+            "picture": null,
+            "content": "My second post!",
+            "date": "2023-10-10",
+            "author": "Ralf"
+        },
+        {
+            "ID": 3,
+            "picture": null,
+            "content": "I made an epic post yet again",
+            "date": "2023-10-10",
+            "author": "Ralf"
+        },
+        {
+            "ID": 4,
+            "picture": "res/pictures/post1.jpg",
+            "content": "repost!",
+            "date": "2023-10-05",
+            "author": "Ralf"
+        },
+        {
+            "ID": 5,
+            "picture": "res/pictures/post1.jpg",
+            "content": "repost two!",
+            "date": "2023-10-05",
+            "author": "Oskar"
+        },
+        {
+            "ID": 6,
+            "picture": "res/pictures/post1.jpg",
+            "content": "My first post!",
+            "date": "2023-10-05",
+            "author": "Oskar"
+        },
+        {
+            "ID": 7,
+            "picture": null,
+            "content": "My second post!",
+            "date": "2023-10-10",
+            "author": "Oskar"
+        },
+        {
+            "ID": 8,
+            "picture": null,
+            "content": "I made an epic post yet again",
+            "date": "2023-10-10",
+            "author": "Oliver"
+        },
+        {
+            "ID": 9,
+            "picture": "https://kodu.ut.ee/~animagi/hdd.png",
+            "content": "repost!",
+            "date": "2023-10-05",
+            "author": "Oliver"
+        },
+        {
+            "ID": 10,
+            "picture": "res/pictures/post1.jpg",
+            "content": "repost two!",
+            "date": "2023-10-05",
+            "author": "Oliver"
+        }
+    ]
     }
-]
-}
