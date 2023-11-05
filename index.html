@@ -8,11 +8,20 @@
 <body>
     <header class="header">
         <div>
-        <a href="index.html">Home</a>
-        <a href="addPost.html">Add Post</a>
+            <a href="index.html">Home</a>
+            <a href="addPost.html">Add Post</a>
         </div>
-        <img src="Header-picture.jpg" alt="Profile Picture" id="profile-picture">
+        <div class="profile-button">
+            <img src="Header-picture.jpg" alt="Profile Picture" id="profile-picture" onclick="toggleDropdown()">
+        </div>
     </header>
+    <div class="dropdown" id="myDropdown">
+        <div class="dropdown-content" id="dropdownContent">
+            <p>Name: John Doe</p>
+            <p>Email: johndoe@ut.ee</p>
+            <a href="Login.html">Logout</a>
+        </div>
+    </div>
     <div class="container">
         <div id="posts-container"></div>
     </div>

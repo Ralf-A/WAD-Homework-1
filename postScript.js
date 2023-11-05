@@ -44,6 +44,19 @@ fetch('https://gist.githubusercontent.com/Ralf-A/bd247c4126a4af73edb3fd21c4e8e22
 
     // Append the posts list to the posts container
     postsContainer.appendChild(postsList);
+
+    //Add onclick event for header profile picture
+    const profilePicture = document.getElementById('profile-picture');
+    profilePicture.onclick = toggleDropdown;
   })
   .catch(error => console.error('Error fetching and displaying posts:', error));
-  
+
+
+function toggleDropdown() {
+  var dropdown = document.getElementById("dropdownContent");
+    if (dropdown.style.display === "block") {
+      dropdown.style.display = "none";
+    } else {
+      dropdown.style.display = "block";
+    }
+}
