@@ -6,7 +6,7 @@
     align-items: center; /* Vertically center content */
     margin: 20px;
     border-radius: 10px;
-    background-color: #f0f0f0; 
+    background-color:darkgrey; 
     padding: 10px; /* Add padding for spacing */
 }
 
@@ -23,9 +23,28 @@
         margin-bottom: 5px; /* Reduce the margin between elements */
     }
 }
-
-
-
+.post-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px; /* Adjust the value to control the roundness */
+}
+.post-list {
+    list-style: none;
+    padding: 0;
+  }
+.post-item:hover {
+    background-color: #d8dec7;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.4s, box-shadow 0.4s;
+}
+.post-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
 .date-top-right {
     text-align: right;
     width: 100%;
